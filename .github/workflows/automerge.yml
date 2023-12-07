@@ -27,3 +27,4 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ secrets.PR_GITHUB_TOKEN }}"
           UPDATE_LABELS: ""
+          
