@@ -26,5 +26,5 @@ jobs:
         uses: "pascalgn/automerge-action@v0.15.6"
         env:
           GITHUB_TOKEN: "${{secrets.AC_PAT}}"
-          MERGE_LABELS: "automerge-placeholder"
+          MERGE_REMOVE_LABELS: "automerge"
           UPDATE_LABELS: ""
